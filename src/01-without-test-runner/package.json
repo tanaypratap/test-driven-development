@@ -4,7 +4,7 @@
   "description": "learning tdd",
   "main": "index.js",
   "scripts": {
-    "test:without-runner": "nodemon --quiet src/01-without-test-runner/index.js"
+    "test": "nodemon --quiet src/01-without-test-runner/index.js"
   },
   "repository": {
     "type": "git",
