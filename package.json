@@ -4,7 +4,7 @@
   "description": "learning tdd",
   "main": "index.js",
   "scripts": {
-    "simple-test": "nodemon --quiet src/01-simple-test/cart.test.js"
+    "simple-test": "nodemon --quiet src/01-simple-test/01_2_cart-handler/cart-handler.test.js"
   },
   "repository": {
     "type": "git",
