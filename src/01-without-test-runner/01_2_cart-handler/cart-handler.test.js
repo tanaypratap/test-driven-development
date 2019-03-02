@@ -1,9 +1,8 @@
 const CartHandler = require("./cart-handler");
 const Item = require("./item");
 
-console.log("This is working");
-
-console.clear();
+// Declare the suite
+console.log("\n ---- CART HANDLER TESTS -----");
 
 /**
  * 1. CartHandler should be present

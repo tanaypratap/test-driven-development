@@ -1,7 +1,7 @@
 const cart = require("./cart");
 
-// Clear the screen for new test runs
-console.clear();
+// Declare the suite
+console.log("\n ---- CART FUNCTION TESTS -----");
 
 const items = [
   { item: "clock", price: 50 },
@@ -13,7 +13,7 @@ const items = [
  * 1. Should add all values in cart
  */
 if (cart(items) == 5070) {
-  console.log("Test passed");
+  console.log("Test passed: Cart Summation right");
 } else {
   throw Error("Test Failed: Cart Summation wrong");
 }
@@ -26,7 +26,7 @@ const itemsWithQuanity = items.concat([
   { item: "spoon", price: 2, quantity: 20 }
 ]);
 if (cart(itemsWithQuanity) == 5110) {
-  console.log("Test Passed");
+  console.log("Test Passed: Cart Quantity taken care");
 } else {
   throw Error("Test Failed: Quantity not taken care");
 }
