@@ -1,0 +1,28 @@
+{
+  "name": "test-driven-development",
+  "version": "1.0.0",
+  "description": "learning tdd",
+  "main": "index.js",
+  "scripts": {
+    "simple-test": "nodemon --quiet src/01-simple-test/cart.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaypratap/test-driven-development.git"
+  },
+  "keywords": [
+    "tdd",
+    "jest",
+    "test",
+    "javascript"
+  ],
+  "author": "Tanay Pratap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanaypratap/test-driven-development/issues"
+  },
+  "homepage": "https://github.com/tanaypratap/test-driven-development#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
