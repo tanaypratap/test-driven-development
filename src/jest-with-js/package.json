@@ -1,0 +1,28 @@
+{
+  "name": "jest-with",
+  "version": "1.0.0",
+  "description": "use jest to test native JS implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaypratap/test-driven-development.git"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "javascript"
+  ],
+  "author": "Tanay Pratap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanaypratap/test-driven-development/issues"
+  },
+  "homepage": "https://github.com/tanaypratap/test-driven-development#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
