@@ -1,10 +1,10 @@
 {
-  "name": "test-driven-development",
+  "name": "pure-js-tests",
   "version": "1.0.0",
   "description": "learning tdd",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --quiet src/01-without-test-runner/index.js"
+    "test": "nodemon --quiet"
   },
   "repository": {
     "type": "git",
