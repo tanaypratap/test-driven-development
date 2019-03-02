@@ -43,3 +43,14 @@ item.updateQuantity(11);
 if (item.quantity === 11) {
   console.log("Test Passed: Updates quantity with new value");
 } else throw Error("Update quantity not working");
+
+/**
+ * 5. Check item availability
+ */
+item.checkAvailability(function(isItemAvailable) {
+  if (isItemAvailable !== undefined) {
+    console.log("Test Passed: Item availability checks work");
+  } else {
+    throw Error("Item availability check failed");
+  }
+});
