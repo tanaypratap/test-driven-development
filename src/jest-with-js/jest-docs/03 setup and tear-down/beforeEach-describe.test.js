@@ -33,6 +33,7 @@ describe('grouping of tests', () => {
 		expect(numOfCashews).not.toBeNull();
 	});
 
+	// Note: test.only is good for debugging, only one test runs
 	test('num of cashews is more than zero', () => {
 		expect(numOfCashews).toBeGreaterThan(0);
 	});
